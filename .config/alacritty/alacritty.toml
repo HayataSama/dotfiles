@@ -1,0 +1,28 @@
+import = [
+  # "~/.config/alacritty/themes/catppuccin/catppuccin-latte.toml"
+  # "~/.config/alacritty/themes/catppuccin/catppuccin-frappe.toml"
+  # "~/.config/alacritty/themes/catppuccin/catppuccin-macchiato.toml"
+  "~/.config/alacritty/themes/catppuccin/catppuccin-mocha.toml"
+]
+
+[window]
+dimensions = {columns = 100, lines = 30}
+padding = { x = 10, y = 10 }
+decorations = "None" # "Full" # "None"
+opacity = 0.6
+blur = true
+dynamic_title = false
+# decorations_theme_variant = "light"
+
+[font]
+normal = {family = "JetbrainsMono Nerd Font", style = "Regular"}
+# normal = {family = "CaskaydiaCove Nerd Font", style = "Regular"}
+size = 13
+
+[cursor]
+style = {shape = "Beam", blinking = "On"}
+blink_interval = 600
+
+[keyboard]
+bindings = [{key = "Back", mods = "Control", chars = "\u0017"}] # <C-BS> to delete previous word
+
